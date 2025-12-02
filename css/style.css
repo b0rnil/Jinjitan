@@ -26,9 +26,22 @@ a {
 
 /*nav bar styling*/
 .navbar {
+    flex: 1;
     background-color: rgb(244, 199, 199);
     padding: 15px 10px;
     position: sticky;
     border-radius: 12px;
     word-spacing: 50px;
+}
+
+.rights{
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Century Gothic', Arial;
+    font-style: italic;
+    background-color: wheat;
+    border-radius: 12px;
+    padding: 2px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
 }
