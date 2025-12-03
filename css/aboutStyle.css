@@ -3,12 +3,22 @@
 }
 
 .button {
-    color: inherit;
-    text-align: center;
-    align-self: center;
+    display: block;                  /* makes width work properly */
     padding: 5px;
     border-radius: 12px;
-    background-color: rgb(186, 244, 201);
-    background-blend-mode: darken;
-    border-style: dashed;
+    border-style: line;
+    margin: auto;
+}
+
+.button a{
+    display: flex;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
 }
