@@ -3,7 +3,7 @@
 }
 
 .button {
-    display: block;                  /* makes width work properly */
+    display: block;    /* makes width work properly */
     padding: 5px;
     border-radius: 12px;
     border-style: line;
