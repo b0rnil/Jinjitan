@@ -1,3 +1,12 @@
 .center {
     text-align: center;
 }
+
+.button {
+    align-self: center;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: rgb(186, 244, 201);
+    background-blend-mode: darken;
+    border-style: dashed;
+}
