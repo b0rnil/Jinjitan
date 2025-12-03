@@ -4,11 +4,16 @@ body {
 
 
 .button {
-    display: block;                  
+    display: block;
+    position: fixed;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 20px;                  
     padding: 5px;
     border-radius: 12px;
     border-style: line;
     margin: auto;
+    z-index: 10000;
 }
 
 .button a{
