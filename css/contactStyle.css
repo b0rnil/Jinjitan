@@ -28,3 +28,12 @@ body {
     justify-items: center;
     
 }
+
+.pp {
+    text-align: center;
+    font-size: 25px;
+    top: 100px;
+    position: fixed;
+    transform: translateX(-50%);
+    left: 50%;
+}
