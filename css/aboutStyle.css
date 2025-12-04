@@ -3,7 +3,7 @@
 }
 
 .button {
-    display: block;    /* makes width work properly */
+    display: inline-flex;    /* makes width work properly */
     padding: 5px;
     border-radius: 12px;
     border-style: line;
@@ -12,6 +12,15 @@
     bottom: 20px;
     position: fixed;
     left: 50%;
+    transition: transform 0.2s ease-in;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+
+}
+
+.button:hover {
+    transform: translateX(-50%) scale(2);
 }
 
 .button a {
