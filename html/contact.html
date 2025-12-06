@@ -23,16 +23,20 @@
         </h3>
         <button class="button"><a href="/Rokujin/index.html">Home</a></button>
 
-        <script>
-            document.addEventListener("mousemove", function(e){
-                const x = e.clientX / window.innerWidth;
-                const y = e.clientY / window.innerHeight;
+    <script>
+    document.addEventListener("mousemove", function(e) {
+        const x = e.clientX / window.innerWidth;
+        const y = e.clientY / window.innerHeight;
 
-                const gradientX = x * 100;
-                const gradientY = y * 100;
+        const gradientX = x * 100;
+        const gradientY = y * 100;
 
-                document.body.style.background = `radianl-gradient(circle at ${gradientX}% ${gradientY}%, #ff6b6b, #feca57, #48dbfb, #5f27cd)`;
-            });
-        </script>
+        document.body.style.background = `
+            radial-gradient(circle at ${gradientX}% ${gradientY}%, 
+            #ff6b6b, #feca57, #48dbfb, #5f27cd)
+        `;
+    });
+    </script>
+
     </body>
 </html>
