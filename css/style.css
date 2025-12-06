@@ -23,7 +23,12 @@ a {
 /*nav bar styling*/
 .navbar {
     flex: 1;
-    background: linear-gradient(45deg, rgb(255, 177, 177), rgb(101, 101, 198), wheat, lightpink, rgb(131, 2, 131));
+    background: linear-gradient(45deg,
+    #ff9a9a,
+    #ffdca3,
+    #6d6de6,
+    #ff9ed6,
+    #a100a1);
     padding: 15px 10px;
     position: sticky;
     border-radius: 12px;
@@ -89,7 +94,11 @@ a {
 body{
     margin: 0;
     height: 100vh;
-    background: linear-gradient(-45deg, #ff6b6b, #feca57, #48dbfb, #5f27cd);
+    background: linear-gradient(-45deg,
+    #ff6b6b, 
+    #feca57,
+    #48dbfb, 
+    #5f27cd);
     background-size: 400% 400%;
     animation: gradientMove 7s ease infinite;
     
